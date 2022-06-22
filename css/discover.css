@@ -1,0 +1,579 @@
+/*导航栏模块*/
+
+.header {
+    position: fixed;
+    background-color: rgb(233, 233, 233);
+    min-width: 320px;
+    max-width: 540px;
+    height: 85px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.header p {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/*主体模块*/
+
+.main {
+    margin-top: 85px;
+    padding-top: 15px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 320px;
+    max-width: 540px;
+    height: 700px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+/*主体模块1*/
+
+.icon1 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left1 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top1 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 8px;
+}
+
+.line1 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 0px solid rgb(233, 233, 233);
+    padding-top: 60px;
+    margin-left: 90px;
+}
+
+/*右边状态模块1*/
+
+.pic1 {
+    float: right;
+    margin-top: -58px;
+    margin-right: 50px;
+}
+
+.picredspot1 {
+    float: right;
+    margin-top: -68px;
+    margin-right: 42px;
+}
+
+.greaterthansign1 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*分割线模块1*/
+
+.division1 {
+    width: 540px;
+    background: rgb(233, 233, 233);
+    height: 15px;
+}
+
+/*主体模块2*/
+
+.whole2 {
+    margin-top: 10px;
+}
+
+.icon2 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left2 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top2 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.line2 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 59px;
+    margin-left: 90px;
+}
+
+/*右边状态模块2*/
+
+.greaterthansign2 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*主体模块3*/
+
+.whole3 {
+    margin-top: 10px;
+}
+
+.icon3 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left3 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top3 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.line3 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 0px solid rgb(233, 233, 233);
+    padding-top: 59px;
+    margin-left: 90px;
+}
+
+/*右边状态模块3*/
+
+.greaterthansign3 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*分割线模块2*/
+
+.division2 {
+    width: 540px;
+    background: rgb(233, 233, 233);
+    height: 15px;
+}
+
+/*主体模块4*/
+
+.whole4 {
+    margin-top: 10px;
+}
+
+.icon4 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left4 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top4 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.line4 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 59px;
+    margin-left: 90px;
+}
+
+/*右边状态模块4*/
+
+.greaterthansign4 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*主体模块5*/
+
+.whole5 {
+    margin-top: 10px;
+}
+
+.icon5 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left5 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top5 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.line5 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 0px solid rgb(233, 233, 233);
+    padding-top: 59px;
+    margin-left: 90px;
+}
+
+/*右边状态模块5*/
+
+.greaterthansign5 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*分割线模块3*/
+
+.division3 {
+    width: 540px;
+    background: rgb(233, 233, 233);
+    height: 15px;
+}
+
+/*主体模块6*/
+
+.whole6 {
+    margin-top: 10px;
+}
+
+.icon6 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left6 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top6 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.line6 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 59px;
+    margin-left: 90px;
+}
+
+/*右边状态模块6*/
+
+.greaterthansign6 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*主体模块7*/
+
+.whole7 {
+    margin-top: 10px;
+}
+
+.icon7 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left7 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top7 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.line7 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 0px solid rgb(233, 233, 233);
+    padding-top: 59px;
+    margin-left: 90px;
+}
+
+/*右边状态模块7*/
+
+.greaterthansign7 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*分割线模块4*/
+
+.division4 {
+    width: 540px;
+    background: rgb(233, 233, 233);
+    height: 15px;
+}
+
+/*主体模块8*/
+
+.whole8 {
+    margin-top: 10px;
+}
+
+.icon8 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left8 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top8 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.line8 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 0px solid rgb(233, 233, 233);
+    padding-top: 59px;
+    margin-left: 90px;
+}
+
+/*右边状态模块8*/
+
+.greaterthansign8 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*分割线模块5*/
+
+.division5 {
+    width: 540px;
+    background: rgb(233, 233, 233);
+    height: 15px;
+}
+
+/*主体模块9*/
+
+.whole9 {
+    margin-top: 10px;
+}
+
+.icon9 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left9 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top9 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.line9 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 0px solid rgb(233, 233, 233);
+    padding-top: 59px;
+    margin-left: 90px;
+}
+
+/*右边状态模块9*/
+
+.greaterthansign9 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*分割线模块6*/
+
+.division6 {
+    width: 540px;
+    background: rgb(233, 233, 233);
+    height: 15px;
+}
+
+/*主体模块10*/
+
+.whole10 {
+    margin-top: 10px;
+}
+
+.icon10 {
+    float: left;
+    padding-left: 14px;
+}
+
+.left10 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top10 {
+    padding-left: 30px;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.line10 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 0px solid rgb(233, 233, 233);
+    padding-top: 59px;
+    margin-left: 90px;
+}
+
+/*右边状态模块10*/
+
+.greaterthansign10 {
+    margin-right: 18px;
+    float: right;
+    margin-top: -44px;
+}
+
+/*小羊跟随鼠标模块*/
+
+.img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-size: cover;
+}
+
+/*js控制模块*/
+
+.hide {
+    position: absolute;
+    float: left;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 10px;
+    width: 70px;
+    height: 20px;
+    padding-bottom: 1px;
+    margin-top: 788px;
+    margin-left: 700px;
+}
+
+.showup {
+    position: absolute;
+    float: left;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 10px;
+    width: 70px;
+    height: 20px;
+    padding-bottom: 1px;
+    margin-top: 788px;
+    margin-left: 775px;
+}
+
+/*底部模块*/
+
+.bottom {
+    margin-top: 878px;
+    padding-top: 15px;
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    min-width: 320px;
+    max-width: 540px;
+    height: 90px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    border-top: 1px solid rgb(220, 220, 220);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bottom-icon1 {
+    padding-top: 1px;
+    float: left;
+    text-align: center;
+    padding-left: 53px;
+}
+
+.redspot2 {
+    float: left;
+    position: absolute;
+    padding-left: 34px;
+    margin-top: -51px;
+}
+
+
+.bottom-icon2 {
+    padding-top: 1px;
+    float: left;
+    text-align: center;
+    padding-left: 88px;
+}
+
+.bottom-icon3 {
+    padding-top: 1px;
+    float: left;
+    text-align: center;
+    padding-left: 88px;
+}
+
+.redspot3 {
+    float: left;
+    position: absolute;
+    padding-left: 30px;
+    margin-top: -48px;
+}
+
+.bottom-icon4 {
+    padding-top: 1px;
+    float: left;
+    text-align: center;
+    padding-left: 88px;
+}

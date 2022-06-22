@@ -1,0 +1,476 @@
+/*导航栏模块*/
+
+.header {
+    position: fixed;
+    background-color: rgb(233, 233, 233);
+    min-width: 320px;
+    max-width: 540px;
+    height: 85px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.header p {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.header a {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+}
+
+/*主体模块*/
+
+.main {
+    margin-top: 85px;
+    padding-top: 15px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 320px;
+    max-width: 540px;
+    height: 660px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+/*主体模块1*/
+
+.icon1 {
+    float: left;
+    padding-left: 10px;
+}
+
+.redspot1 {
+    float: left;
+    position: absolute;
+    padding-left: 63px;
+    margin-top: -8px;
+}
+
+.left1 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top1 {
+    padding-left: 10px;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.bot1 {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(190, 190, 190);
+}
+
+.right1 {
+    padding-left: 5px;
+    padding-top: 10px;
+    width: 100px;
+    color: rgb(190, 190, 190);
+    height: 70px;
+    float: left;
+}
+
+.line1 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 82px;
+    margin-left: 90px;
+}
+
+/*主体模块2*/
+
+.whole2 {
+    margin-top: 10px;
+}
+
+.icon2 {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.left2 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top2 {
+    padding-left: 10px;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.bot2 {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(190, 190, 190);
+}
+
+.right2 {
+    padding-left: 5px;
+    padding-top: 10px;
+    width: 100px;
+    color: rgb(190, 190, 190);
+    height: 70px;
+    float: left;
+}
+
+.line2 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 82px;
+    margin-left: 90px;
+}
+
+/*主体模块3*/
+
+.whole3 {
+    margin-top: 10px;
+}
+
+.icon3 {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.left3 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top3 {
+    padding-left: 10px;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.bot3 {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(190, 190, 190);
+}
+
+.right3 {
+    padding-left: 5px;
+    padding-top: 10px;
+    width: 100px;
+    color: rgb(190, 190, 190);
+    height: 70px;
+    float: left;
+}
+
+.line3 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 82px;
+    margin-left: 90px;
+}
+
+/*主体模块4*/
+
+.whole4 {
+    margin-top: 10px;
+}
+
+
+.icon4 {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.left4 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top4 {
+    padding-left: 10px;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.bot4 {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(190, 190, 190);
+}
+
+.right4 {
+    padding-left: 5px;
+    padding-top: 10px;
+    width: 100px;
+    color: rgb(190, 190, 190);
+    height: 70px;
+    float: left;
+}
+
+.line4 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 82px;
+    margin-left: 90px;
+}
+
+/*主体模块5*/
+
+.whole5 {
+    margin-top: 10px;
+}
+
+.icon5 {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.left5 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top5 {
+    padding-left: 10px;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.bot5 {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(190, 190, 190);
+}
+
+.right5 {
+    padding-left: 5px;
+    padding-top: 10px;
+    width: 100px;
+    color: rgb(190, 190, 190);
+    height: 70px;
+    float: left;
+}
+
+.line5 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 82px;
+    margin-left: 90px;
+}
+
+/*主体模块6*/
+
+.whole6 {
+    margin-top: 10px;
+}
+
+.icon6 {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.left6 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top6 {
+    padding-left: 10px;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.bot6 {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(190, 190, 190);
+}
+
+.right6 {
+    padding-left: 5px;
+    padding-top: 10px;
+    width: 100px;
+    color: rgb(190, 190, 190);
+    height: 70px;
+    float: left;
+}
+
+.line6 {
+    white-space: nowrap;
+    width: 450px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 82px;
+    margin-left: 90px;
+}
+
+/*主体模块7*/
+
+.whole7 {
+    margin-top: 10px;
+}
+
+.icon7 {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.left7 {
+    float: left;
+    width: 360px;
+    height: 70px;
+}
+
+.top7 {
+    padding-left: 10px;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.bot7 {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(190, 190, 190);
+}
+
+.right7 {
+    padding-left: 5px;
+    padding-top: 10px;
+    width: 100px;
+    color: rgb(190, 190, 190);
+    height: 70px;
+    float: left;
+}
+
+.line7 {
+    white-space: nowrap;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 82px;
+}
+
+.form {
+    float: right;
+    border: 1px solid;
+    margin-top: 800px;
+    margin-right: 400px;
+}
+
+/*小羊跟随鼠标模块*/
+
+.img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-size: cover;
+}
+
+/*js控制模块*/
+
+.hide {
+    position: absolute;
+    float: left;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 10px;
+    width: 70px;
+    height: 20px;
+    padding-bottom: 1px;
+    margin-top: 750px;
+    margin-left: 700px;
+}
+
+.showup {
+    position: absolute;
+    float: left;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 10px;
+    width: 70px;
+    height: 20px;
+    padding-bottom: 1px;
+    margin-top: 750px;
+    margin-left: 775px;
+}
+
+/*底部模块*/
+
+.bottom {
+    margin-top: 878px;
+    padding-top: 15px;
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    min-width: 320px;
+    max-width: 540px;
+    height: 90px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    border-top: 1px solid rgb(220, 220, 220);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bottom-icon1 {
+    padding-top: 1px;
+    float: left;
+    text-align: center;
+    padding-left: 53px;
+}
+
+.redspot2 {
+    float: left;
+    position: absolute;
+    padding-left: 34px;
+    margin-top: -51px;
+}
+
+
+.bottom-icon2 {
+    padding-top: 1px;
+    float: left;
+    text-align: center;
+    padding-left: 88px;
+}
+
+.bottom-icon3 {
+    padding-top: 1px;
+    float: left;
+    text-align: center;
+    padding-left: 88px;
+}
+
+.redspot3 {
+    float: left;
+    position: absolute;
+    padding-left: 30px;
+    margin-top: -48px;
+}
+
+.bottom-icon4 {
+    padding-top: 1px;
+    float: left;
+    text-align: center;
+    padding-left: 88px;
+}
