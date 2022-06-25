@@ -39,7 +39,7 @@ window.addEventListener('mousemove', function (xyz) {
   index = 0
   // 定义当前鼠标的位置
   let x = event.clientX
-  // 当鼠标的x轴大于图片的时候，提普安就要对着鼠标，所以需要将图片翻转过来
+  // 当鼠标的x轴大于图片的时候，小羊就要对着鼠标，所以需要将图片翻转过来
   // 否则就不用翻转
   if (img.offsetLeft < x) {
     y = -180
